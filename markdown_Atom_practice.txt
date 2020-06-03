@@ -1,0 +1,65 @@
+*マークダウンとAtomエディタの練習*
+# レベル１です
+## レベル２です
+### レベル３です
+#### レベル４です
+##### レベル５です
+
+*これはイタリック体です*
+**これは太字です**
+~~これは打ち消しです~~
+
+* 記号リスト　「*」バージョン
+- 記号リスト　「-」バージョン
+
+1. 番号リスト
+1. 番号リスト　半角数字だったらなんでもOK？
+2. 番号リスト
+5. 番号リスト
+  1. インデント付番号リスト
+
+[Yahooへのリンク](https://www.yahoo.co.jp/)
+
+![画像タイトル](https://boostnote.io/assets/img/logo.png)
+
+- [x] チェックボックス
+- [ ] チェックボックス
+
+> 引用
+> > 引用
+
+<details><summary>Boostnoteとはmarkdown記法に対応したメモ帳で、情報整理・共有のためのツールです。</summary>
+-機能-<br>
+・メモを一発で見つける検索機能<br>
+・markdown記法に対応<br>
+・Mac,Windows,Linux,iOS,Androidに対応<br>
+・Plain text(.txt),Markdown(.md)形式にエクスポート、インポート<br>
+・PDF保存に対応<br>
+・オフラインで使用できる<br>
+・設定でdropboxなどに同期可能<br>
+・テーマカラーや、数多くのフォントに対応<br>
+</details>
+
+``` js
+ render: function() {
+    return (
+      <div className="commentBox">
+        <h1>Comments</h1>
+        <CommentList data={this.state.data} />
+        <CommentForm onCommentSubmit={this.handleCommentSubmit} />
+      </div>
+    );
+  }
+```
+
+| 果物 | 値段 |
+| :---|---: |
+| りんご | 120円 |
+| ぶどう | 398円 |
+
+---
+マークダウン学習サイト
+
+[仕事効率、学習効率を加速させるMarkdown記法の紹介](http://boostnote.hatenablog.com/entry/2017/09/25/123956)
+
+[ITエンジニアを目指すなら覚えておきたいMarkdown記法](https://blog.pyq.jp/entry/IT_tips_180502)
